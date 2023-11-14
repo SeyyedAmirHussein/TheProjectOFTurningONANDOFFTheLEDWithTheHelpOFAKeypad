@@ -30,8 +30,8 @@ char HexaKeys [ROWS] [COLS] = {
 };
 
 
-byte RowPins [ROWS] = {9, 8, 7, 6};                                                                                                                    //Connect to The Row Pinouts of The Keypad .
-byte ColPins [COLS] = {5, 4, 3, 2};                                                                                                                   //Connect to The Column Pinouts of The Keypad .
+byte RowPins [ROWS] = {9, 8, 7, 6};                                                                                                                    // Connect to The Row Pinouts of The Keypad .
+byte ColPins [COLS] = {5, 4, 3, 2};                                                                                                                   // Connect to The Column Pinouts of The Keypad .
 
 
 // Initialize an Instance of Class NewKeypad .
